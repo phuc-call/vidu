@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#c31432,#240b36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conten{
+    width: 500px;
+    min-height:200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: white;
+}
+.text{
+    line-height: 3em;
+}
+.title{
+    font-weight: 700;
+}
+.giam{
+    font-weight: 400;
+}
+.conpy_dk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.coppy{
+    
+}

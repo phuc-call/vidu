@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-image: linear-gradient(210deg, #5020db, #ff1f8c, #ffb200);
+}
+
+div {
+  height: 64px;
+  padding: 0 48px;
+  font-weight: 800;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 32px;
+justify-content: center;
+  border-radius: 32px;
+  font-size: 21px;
+  animation: idleBtn 5s ease-in-out infinite;
+}
+
+@keyframes idleBtn {
+  0%,
+  10% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(#fff, 1);
+  }
+  45% {
+    box-shadow: 0 0 0 16px rgba(#fff, 0);
+  }
+  45%,
+  50% {
+    transform: scale(1.2);
+  }
+}
